@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <!-- the reason why we defer here is it first runs the html file and then after that it will go for the script file that we are going to give -->
+    <script defer src="script.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>        
+
+</head>
+<body>
+    
+    <form  id="registration">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Enter your email</label>
+        <input type="email"  id="email" required>
+        <br>
+        <br>
+
+        <button type="submit" id="submit"> Register</button>
+
+    </form>
+    <a href="index2.html">Click To see registration</a>
+</body>
+</html>
