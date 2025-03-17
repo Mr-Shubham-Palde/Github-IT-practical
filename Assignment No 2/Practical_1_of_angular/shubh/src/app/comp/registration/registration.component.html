@@ -1,0 +1,18 @@
+
+<h2>Register</h2>
+<form>
+  <div>
+    <label for="name">name</label>
+    <input type="text" id="username" name="username" required />
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required />
+  </div>
+  
+</form>
+
+<button type="button" (click)="onRegister()">Register</button>
+<p>Already have an account? <a routerLink="login">Login</a>
+<router-outlet></router-outlet></p>
+

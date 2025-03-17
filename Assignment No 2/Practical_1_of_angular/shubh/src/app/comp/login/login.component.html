@@ -1,0 +1,20 @@
+<h1>
+    Welcome bro ! welcome to my world of web dev using 
+</h1>
+
+<p>Plzz Enter your details to login</p>
+<form>
+    <div>
+      <label for="name">name</label>
+      <input type="text" id="username" name="username" required />
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+    </div>
+    
+  </form>
+  
+  <button type="button" (click)="onLogin()">Login</button>
+  <p>Already have an account? <a routerLink="home">Login</a>
+  <router-outlet></router-outlet></p>
